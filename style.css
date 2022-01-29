@@ -26,18 +26,13 @@ body {
    top: 1.5rem;
 }
 
-.icon-moon {
+.icon-moon, .icon-sun {
    width: 20px;
    height: 20px;
-   background-image: url(/assets/moon.svg);
-   background-size: contain;
 }
 
-.icon-sun {
-   width: 20px;
-   height: 20px;
-   background-image: url(/assets/sun.svg);
-   background-size: contain;
+.icon-moon img, .icon-sun img {
+   width: 100%;
 }
 
 .checkbox:checked + .label .slider {
